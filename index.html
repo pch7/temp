@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksify | Most Trusted Platform</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="icon" href="img/books-favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-container">
+        <!-- Navbar -->
+        <section class="navbar">
+            <!-- Title and Logo -->
+            <div class="title-logo">
+                <a href="#index.html"><img class="logo" src="https://img.icons8.com/color/48/undefined/books.png"/></a>
+                <h1 class="title">Booksify</h1>
+            </div>
+            <!-- Middile Nav bar -->
+            <div class="nav-list">
+                <ul class="nav-options">
+                    <li class="nav-list-option" id="nav-list-option1"><a href="#home">Home</a></li>
+                    <li class="nav-list-option" id="nav-list-option2"><a href="#featured">Featured</a></li>
+                    <li class="nav-list-option" id="nav-list-option3"><a href="#arrivals">Arrivals</a></li>
+                    <li class="nav-list-option" id="nav-list-option4"><a href="#reviews">Reviews</a></li>
+                </ul>
+            </div>
+            <!-- Seearch in Navbar -->
+            <div class="search">
+                <form class="search-form" action="search">
+                    <input type="text" placeholder="Search Here..." id="type-search">
+                    <i class="cross-search fa-solid fa-x"></i>
+                </form>
+            </div>
+            <!-- Left Navbar -->
+            <div class="left-navbar">
+                <label for="type-search"><img src="https://img.icons8.com/color/48/undefined/search--v1.png" class="search-logo logo" id="search-btn" /></label>
+                <a href="" ><img id="second-child" class = "logo"src="https://img.icons8.com/fluency/48/undefined/like.png"/></a>
+                <a href=""><img id="third-child" class="logo" src="https://img.icons8.com/color/48/undefined/shopping-cart-loaded.png"/></a>
+                <img  class="user-logo logo" src="https://img.icons8.com/external-febrian-hidayat-flat-febrian-hidayat/64/undefined/external-User-user-interface-febrian-hidayat-flat-febrian-hidayat.png"/>
+            </div>
+        </section>
+        <!-- Navbar End -->
+
+
+        <!-- Main -->
+        <div class="no-service">
+            <p>Sorry, but this service is not available now</p>
+            <button class="btn no-service-btn" id="id-no-service-btn">Ok</button>
+        </div>
+
+
+        <div class="login">
+            <div class="login-cred">
+                <i class="cross-login fa-solid fa-x"></i>
+                <div class="login-title">
+                    <h1>Login Form</h1>
+                </div>
+                <form action="" class="login-form">
+                    <input type="text" placeholder="UserName.." class="login-details name-login-form">
+                    <input type="email" placeholder="Email ID.." class="email-login-form login-details">
+                    <input type="password" placeholder="Password.." class="login-details password-login-form">
+                    <label for="checkbox-login-form"><input type="checkbox" class="checkbox-login-form">Remember Me</label>
+                    <input type="button" value="Sign In" class="btn">
+                </form>
+                    <p>forget password ? <span class="not-available">click here</span></p>
+                    <p>don't have an account ? <span  class="not-available">create one</span></p>
+            </div>
+        </div>
+        <!-- Middle Nav bar on search -->
+        <nav class="middle-navbar">
+            <a href="#home" class="fas fa-home"></a>
+            <a href="#featured" class="fas fa-list"></a>
+            <a href="#arrival" class="fas fa-tags"></a>
+            <a href="#reviews" class="fas fa-comments"></a>
+            <a href=""><img class="logo" id="cart-bottom" src="https://img.icons8.com/color/48/undefined/shopping-cart-loaded.png"/></a>
+        </nav>
+        
+        <div class="main"></div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
