@@ -365,9 +365,9 @@ a{
     .nav-list{
         display: none;
     }
-.navbar .search .search-form input{
-    width: 30vw;
-}
+    .navbar .search .search-form input{
+        width: 30vw;
+    }
     .title-logo{
         flex: 1 0 70%;
         max-width: 70%;
@@ -400,6 +400,12 @@ a{
         top: 20%;
         left: 20%;
     }
+    #third-child{
+        display: none;
+    }
+    #second-child{
+        display: none;
+    }
 }
 
 @media (max-width: 400px){
@@ -409,12 +415,6 @@ a{
     }
     .navbar .search .search-form{
         width: 90vw;
-    }
-    #third-child{
-        display: none;
-    }
-    #second-child{
-        display: none;
     }
     .title{
         font-size: 29px;
